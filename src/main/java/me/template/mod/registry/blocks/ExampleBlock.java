@@ -19,8 +19,8 @@ public class ExampleBlock extends ModBlocks {
             "example_block",
             BlockBehaviour.Properties.of().mapColor(MapColor.STONE));
 
-
     @SubscribeEvent(priority = EventPriority.NORMAL)
     public static void RegisterEvent(RegisterEvent event) {
+        // testing
     }
 }
